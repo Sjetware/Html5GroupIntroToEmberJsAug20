@@ -1,0 +1,35 @@
+﻿<div style="border: 1px solid blue; padding: 10px;">
+    <div>This is the index template. The value of bar: {{bar}}.</div>
+    <div>
+        <span>Click on this button. Go ahead, it won't bite.</span>
+        <button {{action 'foo'}}>Click me!</button>
+    </div>
+    <div>
+        But we're not limited just to the predefined values. For example: {{thisDoesntExist}}
+    </div>
+    <div>
+        {{input type='text' value=bar}}
+        {{input type='text' value=thisDoesntExist}}
+    </div>
+    <div>
+        We can also loop over things:
+
+        {{#each color in colors}}
+            <div>One of the colors: {{color}}</div>
+        {{/each}}
+    </div>
+    <div>
+        And we can also link to other pages easily:
+        {{#link-to 'about'}}Go to the about page{{/link-to}}
+    </div>
+
+    <div>Current Count: {{count}}</div>
+    <div><button {{action 'increment'}}>Up we go</button></div>
+
+
+    {{#if isVisible}}
+        <img src="/images/itsHappening.gif" />
+    {{/if}}
+
+    {{render 'templateNamme' model}}
+</div>

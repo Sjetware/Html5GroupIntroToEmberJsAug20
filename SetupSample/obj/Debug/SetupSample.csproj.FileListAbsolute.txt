@@ -1,0 +1,6 @@
+C:\Users\Justin\SkyDrive\Projects\SetupSample\SetupSample\bin\SetupSample.dll.config
+C:\Users\Justin\SkyDrive\Projects\SetupSample\SetupSample\bin\SetupSample.dll
+C:\Users\Justin\SkyDrive\Projects\SetupSample\SetupSample\bin\SetupSample.pdb
+C:\Users\Justin\SkyDrive\Projects\SetupSample\SetupSample\obj\Debug\SetupSample.csprojResolveAssemblyReference.cache
+C:\Users\Justin\SkyDrive\Projects\SetupSample\SetupSample\obj\Debug\SetupSample.dll
+C:\Users\Justin\SkyDrive\Projects\SetupSample\SetupSample\obj\Debug\SetupSample.pdb

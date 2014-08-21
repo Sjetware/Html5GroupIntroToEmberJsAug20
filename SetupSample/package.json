@@ -1,0 +1,9 @@
+﻿{
+    "name":  "Sample-Ember-App",
+    "repository":  "https://github.com/Sjetware/Html5GroupIntroToEmberJsAug20.git",
+    "devDependencies": {
+        "grunt-ember-templates": "v0.4.21",
+        "grunt-contrib-concat":  "v0.5.0"
+    },
+    "description": "A sample ember app"
+}
